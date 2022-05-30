@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct WalletApp: App {
+    @AppStorage("passcode") var passcode = ""
+    @StateObject var coredata = Coredata()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView(coredata: coredata, passcode: $passcode)
+                .environment(\.managedObjectContext, coredata.container.viewContext)
         }
     }
 }

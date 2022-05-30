@@ -7,18 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		404B445A283F7C4900FD8214 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404B4459283F7C4900FD8214 /* OtherView.swift */; };
+		404B445C283F945D00FD8214 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404B445B283F945D00FD8214 /* CoreData.swift */; };
+		404B445E283F995600FD8214 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404B445D283F995600FD8214 /* HomeView.swift */; };
+		404B4460283FA56B00FD8214 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404B445F283FA56B00FD8214 /* DetailsView.swift */; };
+		404B4462283FC01A00FD8214 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404B4461283FC01A00FD8214 /* EditView.swift */; };
+		404B4465283FD99B00FD8214 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 404B4467283FD99B00FD8214 /* Localizable.strings */; };
 		408AF53F283D983900327F79 /* WalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408AF53E283D983900327F79 /* WalletApp.swift */; };
 		408AF541283D983900327F79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408AF540283D983900327F79 /* ContentView.swift */; };
 		408AF543283D983B00327F79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408AF542283D983B00327F79 /* Assets.xcassets */; };
 		408AF546283D983B00327F79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408AF545283D983B00327F79 /* Preview Assets.xcassets */; };
+		408FB5F82845173D00A06AFF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FB5F72845173D00A06AFF /* Extensions.swift */; };
+		408FB5FC2845180500A06AFF /* PasswordGeneratorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FB5FB2845180500A06AFF /* PasswordGeneratorVM.swift */; };
+		408FB5FF2845333800A06AFF /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FB5FE2845333800A06AFF /* Review.swift */; };
+		40D61401283E17870092ABFA /* AddInWalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D61400283E17870092ABFA /* AddInWalletView.swift */; };
+		40D61403283E1A2C0092ABFA /* CreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D61402283E1A2C0092ABFA /* CreditCardView.swift */; };
+		40D61406283E48040092ABFA /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40D61404283E48040092ABFA /* Model.xcdatamodeld */; };
+		40D6140A283E4F200092ABFA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D61409283E4F200092ABFA /* LoginView.swift */; };
+		40D6140C283EAC6E0092ABFA /* PasswordGenaretorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D6140B283EAC6E0092ABFA /* PasswordGenaretorView.swift */; };
+		40D6140E283ECB7D0092ABFA /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D6140D283ECB7D0092ABFA /* PasswordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		408AF53B283D983900327F79 /* Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		404B4459283F7C4900FD8214 /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
+		404B445B283F945D00FD8214 /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		404B445D283F995600FD8214 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		404B445F283FA56B00FD8214 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		404B4461283FC01A00FD8214 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		404B4466283FD99B00FD8214 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		404B4468283FD9A000FD8214 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		408AF53B283D983900327F79 /* The Wallet | المحفظة.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Wallet | المحفظة.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		408AF53E283D983900327F79 /* WalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletApp.swift; sourceTree = "<group>"; };
 		408AF540283D983900327F79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		408AF542283D983B00327F79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		408AF545283D983B00327F79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		408FB5F72845173D00A06AFF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		408FB5FB2845180500A06AFF /* PasswordGeneratorVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGeneratorVM.swift; sourceTree = "<group>"; };
+		408FB5FE2845333800A06AFF /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		40D61400283E17870092ABFA /* AddInWalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInWalletView.swift; sourceTree = "<group>"; };
+		40D61402283E1A2C0092ABFA /* CreditCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardView.swift; sourceTree = "<group>"; };
+		40D61405283E48040092ABFA /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		40D61408283E4D310092ABFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		40D61409283E4F200092ABFA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		40D6140B283EAC6E0092ABFA /* PasswordGenaretorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenaretorView.swift; sourceTree = "<group>"; };
+		40D6140D283ECB7D0092ABFA /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +75,7 @@
 		408AF53C283D983900327F79 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				408AF53B283D983900327F79 /* Wallet.app */,
+				408AF53B283D983900327F79 /* The Wallet | المحفظة.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +83,13 @@
 		408AF53D283D983900327F79 /* Wallet */ = {
 			isa = PBXGroup;
 			children = (
+				40D61408283E4D310092ABFA /* Info.plist */,
 				408AF53E283D983900327F79 /* WalletApp.swift */,
-				408AF540283D983900327F79 /* ContentView.swift */,
+				40D61407283E48080092ABFA /* CoreData */,
+				408FB5F9284517AE00A06AFF /* Views */,
+				408FB5FA284517C400A06AFF /* Helper */,
+				408FB5FD2845182300A06AFF /* ViewModels */,
+				404B4467283FD99B00FD8214 /* Localizable.strings */,
 				408AF542283D983B00327F79 /* Assets.xcassets */,
 				408AF544283D983B00327F79 /* Preview Content */,
 			);
@@ -67,12 +104,55 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		408FB5F9284517AE00A06AFF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				408AF540283D983900327F79 /* ContentView.swift */,
+				40D6140B283EAC6E0092ABFA /* PasswordGenaretorView.swift */,
+				40D61400283E17870092ABFA /* AddInWalletView.swift */,
+				40D6140D283ECB7D0092ABFA /* PasswordView.swift */,
+				404B4459283F7C4900FD8214 /* OtherView.swift */,
+				40D61402283E1A2C0092ABFA /* CreditCardView.swift */,
+				404B4461283FC01A00FD8214 /* EditView.swift */,
+				40D61409283E4F200092ABFA /* LoginView.swift */,
+				404B445D283F995600FD8214 /* HomeView.swift */,
+				404B445F283FA56B00FD8214 /* DetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		408FB5FA284517C400A06AFF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				408FB5F72845173D00A06AFF /* Extensions.swift */,
+				408FB5FE2845333800A06AFF /* Review.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		408FB5FD2845182300A06AFF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				408FB5FB2845180500A06AFF /* PasswordGeneratorVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		40D61407283E48080092ABFA /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				40D61404283E48040092ABFA /* Model.xcdatamodeld */,
+				404B445B283F945D00FD8214 /* CoreData.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		408AF53A283D983900327F79 /* Wallet */ = {
+		408AF53A283D983900327F79 /* The Wallet | المحفظة */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 408AF549283D983B00327F79 /* Build configuration list for PBXNativeTarget "Wallet" */;
+			buildConfigurationList = 408AF549283D983B00327F79 /* Build configuration list for PBXNativeTarget "The Wallet | المحفظة" */;
 			buildPhases = (
 				408AF537283D983900327F79 /* Sources */,
 				408AF538283D983900327F79 /* Frameworks */,
@@ -82,9 +162,9 @@
 			);
 			dependencies = (
 			);
-			name = Wallet;
+			name = "The Wallet | المحفظة";
 			productName = Wallet;
-			productReference = 408AF53B283D983900327F79 /* Wallet.app */;
+			productReference = 408AF53B283D983900327F79 /* The Wallet | المحفظة.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,20 +182,21 @@
 					};
 				};
 			};
-			buildConfigurationList = 408AF536283D983900327F79 /* Build configuration list for PBXProject "Wallet" */;
+			buildConfigurationList = 408AF536283D983900327F79 /* Build configuration list for PBXProject "The Wallet | المحفظة" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 408AF532283D983900327F79;
 			productRefGroup = 408AF53C283D983900327F79 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				408AF53A283D983900327F79 /* Wallet */,
+				408AF53A283D983900327F79 /* The Wallet | المحفظة */,
 			);
 		};
 /* End PBXProject section */
@@ -126,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				408AF546283D983B00327F79 /* Preview Assets.xcassets in Resources */,
+				404B4465283FD99B00FD8214 /* Localizable.strings in Resources */,
 				408AF543283D983B00327F79 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,12 +219,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40D6140A283E4F200092ABFA /* LoginView.swift in Sources */,
+				408FB5FC2845180500A06AFF /* PasswordGeneratorVM.swift in Sources */,
 				408AF541283D983900327F79 /* ContentView.swift in Sources */,
+				404B445A283F7C4900FD8214 /* OtherView.swift in Sources */,
+				40D61401283E17870092ABFA /* AddInWalletView.swift in Sources */,
+				404B445C283F945D00FD8214 /* CoreData.swift in Sources */,
+				404B4460283FA56B00FD8214 /* DetailsView.swift in Sources */,
+				404B445E283F995600FD8214 /* HomeView.swift in Sources */,
+				404B4462283FC01A00FD8214 /* EditView.swift in Sources */,
+				408FB5FF2845333800A06AFF /* Review.swift in Sources */,
+				40D6140E283ECB7D0092ABFA /* PasswordView.swift in Sources */,
+				40D61406283E48040092ABFA /* Model.xcdatamodeld in Sources */,
 				408AF53F283D983900327F79 /* WalletApp.swift in Sources */,
+				40D6140C283EAC6E0092ABFA /* PasswordGenaretorView.swift in Sources */,
+				40D61403283E1A2C0092ABFA /* CreditCardView.swift in Sources */,
+				408FB5F82845173D00A06AFF /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		404B4467283FD99B00FD8214 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				404B4466283FD99B00FD8214 /* en */,
+				404B4468283FD9A000FD8214 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		408AF547283D983B00327F79 /* Debug */ = {
@@ -265,21 +373,26 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_ASSET_PATHS = "\"Wallet/Preview Content\"";
 				DEVELOPMENT_TEAM = 2BF2GNXT6R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wallet/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Wallet | المحفظة";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "To open App with face-id , can you Allow?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.malsaleh.Wallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -294,21 +407,26 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_ASSET_PATHS = "\"Wallet/Preview Content\"";
 				DEVELOPMENT_TEAM = 2BF2GNXT6R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wallet/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Wallet | المحفظة";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "To open App with face-id , can you Allow?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.malsaleh.Wallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -320,7 +438,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		408AF536283D983900327F79 /* Build configuration list for PBXProject "Wallet" */ = {
+		408AF536283D983900327F79 /* Build configuration list for PBXProject "The Wallet | المحفظة" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				408AF547283D983B00327F79 /* Debug */,
@@ -329,7 +447,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		408AF549283D983B00327F79 /* Build configuration list for PBXNativeTarget "Wallet" */ = {
+		408AF549283D983B00327F79 /* Build configuration list for PBXNativeTarget "The Wallet | المحفظة" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				408AF54A283D983B00327F79 /* Debug */,
@@ -339,6 +457,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		40D61404283E48040092ABFA /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				40D61405283E48040092ABFA /* Model.xcdatamodel */,
+			);
+			currentVersion = 40D61405283E48040092ABFA /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 408AF533283D983900327F79 /* Project object */;
 }

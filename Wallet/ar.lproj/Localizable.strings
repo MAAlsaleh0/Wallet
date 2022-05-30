@@ -1,0 +1,64 @@
+/* 
+  Localizable.strings
+  Wallet
+
+  Created by Mohammed Alsaleh on 25/10/1443 AH.
+  
+*/
+"Set New Passcode" = "إنشاء رمز دخول";
+"Enter your new passcode" = "اكتب رمز دخول جديد";
+"Back" = "عودة";
+"Verify your new passcode" = "اكتب رمز الدخول مجددًا";
+"Passcodes did not match. Try again." = "رمز الدخول غير متطابق ٫ حاول مجددًا.";
+"Login" = "تسجيل الدخول";
+"Failed Passcode" = "خطأ في رمز الدخول";
+"Wallet" = "المحفطة";
+"You don't have anything in the wallet" = "لا يوجد أي شي بالمحفظة";
+"Password Generator" = "صانع كلمة المرور";
+"details" = "تفاصيل";
+"Lenght:" = "طول كلمة المرور:";
+"Include Numbers:(01234...)" = "يتضمن أرقام:(01234...)";
+"Include Symbols:(!@#$%^...)" = "يتضمن رموز:(!@#$%^...)";
+"Include Uppercase Characters:" = "يتضمن أحرف كبيرة:";
+"Include Lowercase Characters:" = "يتضمن أحرف صغيرة:";
+"Your New Password:" = "كلمة مرورك الجديدة:";
+"Copy Password" = "نسخ كلمة المرور";
+"Password copied to clipboard" = "تم نسخ كلمة المرور";
+"Passwords" = "كلمات المرور";
+"Credit Cards" = "بطاقات الإتمان";
+"Others" = "اخرى";
+"Edit" = "تعديل";
+"Copy Username" = "نسخ اسم المستخدم";
+"Delete Password" = "حذف كلمة المرور";
+"Username copied to clipboard" = "تم نسخ اسم المستخدم";
+"Name:" = "الأسم:";
+"Username:" = "اسم المستخدم:";
+"Password:" = "كلمة المرور:";
+"Last Change:" = "آخر تعديل:";
+"Delete" = "حذف";
+"Copy Card Number" = "نسخ رقم البطاقة";
+"Delete Card" = "حذف البطاقة";
+"Card Number:" = "رقم البطاقة:";
+"Expiry date:" = "تاريخ الإنتهاء:";
+"CVV Number:" = "رقم الأمان (CVV):";
+"Card for shopping..." = "بطاقة التسوق...";
+"Text:" = "النص:";
+"Copy Text" = "نسخ النص";
+"Delete Text" = "حذف النص";
+"school note.." = "ملاحظة المدرسة..";
+"Type anything you want to store in the wallet." = "اكتب اي شي تريد تخرينه في المحفظة.";
+"Save" = "حفظ";
+"Add To Wallet" = "الإضافة إلى المحفظة";
+"Password" = "كلمة المرور";
+"Other" = "أخرى";
+"Credit Card" = "بطاقة إئتمان";
+"Twitter password..." = "باسوورد حسابي...";
+"You should fill them all." = "يجب عليك ملئ جميع مربعات النصوص";
+"Error" = "خطأ";
+"Okay" = "تمام";
+"Card Number copied to clipboard" = "تم نسخ رقم البطاقة";
+"Text copied to clipboard" = "تم نسخ النص";
+"When you delete it, it can’t be recovered again!" = "اذا حذفته ٫ م تقدر تستعيده مجددًا";
+"Are you sure?" = "هل أنت متأكد؟";
+"Enter Your Passcode." = "اكتب رمز الدخول";
+"Generate Password" = "إصنع كلمة مرور";
