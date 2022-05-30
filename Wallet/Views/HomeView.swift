@@ -16,7 +16,6 @@ struct HomeView: View {
     @State var ShowDetailsViewO = false
     @State var sequre = false
     @State var d : Item?
-    @Environment(\.managedObjectContext) var managedObjContext
     @Environment(\.colorScheme) var colorShceme
     var body: some View {
         NavigationView {

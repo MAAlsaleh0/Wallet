@@ -16,7 +16,7 @@ struct PasswordGenaretorView: View {
         NavigationView {
             Form {
                 Section("details") {
-                    Stepper(LocalizedStringKey("Lenght:").toString() + "\(VM.Lenght)", value: $VM.Lenght, in: 0...500)
+                    Stepper(LocalizedStringKey("Lenght:").toString() + "\(VM.Lenght)", value: $VM.Lenght, in: 1...500)
                     Toggle("Include Numbers:(01234...)", isOn: $VM.isNumbers)
                     Toggle("Include Symbols:(!@#$%^...)", isOn: $VM.isSymbols)
                     Toggle("Include Uppercase Characters:", isOn: $VM.isCharactersUP)
